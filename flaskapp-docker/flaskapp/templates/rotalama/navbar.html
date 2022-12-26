@@ -1,0 +1,54 @@
+<html>
+<head>
+
+
+<style>
+
+.navbar-dark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#d4d3d3;
+    width: 100%; 
+    height: 4.5rem;
+
+}
+
+.logo{
+    position: fixed;
+    left: 2rem;
+    top: -0.5rem;
+}
+
+.logo2{
+    position: fixed;
+    right: 1rem;
+}
+/* .home {
+    position: fixed;
+    left: 200px;
+    font-size: 24px;
+    transition: 0.3s;
+    margin-top: 18px;
+    text-decoration: none;
+}
+.update {
+    position: fixed;
+    left: 300px;
+    font-size: 24px;
+    transition: 0.3s;
+    margin-top: 18px;
+    text-decoration: none;
+} */
+
+</style>
+</head>
+<body>
+
+ <nav class="navbar-dark">
+            <img src="{{ url_for('static', filename='rotalama/sok.png')}}" style="width: 120px; max-width: 100%" alt="logo" class="logo">
+            <img src="{{ url_for('static', filename='rotalama/yildiztech.png')}}" style="width: 300px; max-width: 100%" alt="logo2" class="logo2">
+  </nav>
+  </body>
+  </html>
